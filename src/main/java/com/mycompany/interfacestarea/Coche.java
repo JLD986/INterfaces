@@ -8,14 +8,14 @@ package com.mycompany.interfacestarea;
  *
  * @author Tato
  */
-public class Perro implements AnimalInterface {
+public class Coche implements vehiculo {
     @Override
-    public void hacerSonido() {
-        System.out.println("El perro está ladrando.");
+    public void arrancar() {
+        System.out.println("El coche está arrancando.");
     }
 
     @Override
-    public void mover() {
-        System.out.println("El perro está corriendo.");
+    public void detener() {
+        System.out.println("El coche se ha detenido.");
     }
 }
